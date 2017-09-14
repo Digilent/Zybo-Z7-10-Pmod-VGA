@@ -2,7 +2,7 @@
 # If ::create_path global variable is set, the project is created under that path instead of the working dir
 
 # Project specific settings. These must be updated for each project.
-set proj_name "TEMPLATE"
+set proj_name "Pmod-VGA"
 
 if {[info exists ::create_path]} {
 	set dest_dir $::create_path
@@ -11,8 +11,6 @@ if {[info exists ::create_path]} {
 }
 puts "INFO: Creating new project in $dest_dir"
 cd $dest_dir
-
-
 
 set part "xc7z010clg400-1"
 set brd_part "digilentinc.com:zybo-z7-10:part0:1.0"
