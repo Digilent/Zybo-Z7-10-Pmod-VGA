@@ -1,6 +1,8 @@
 Zybo Z7-10 Pmod VGA Demo
 ==============
 
+**Note:** The demo contained in this repository has been moved and this repository is no longer being actively maintained. Check out the [Zybo Z7 Pmod VGA demo](https://digilent.com/reference/programmable-logic/zybo-z7/demos/pmod-vga) page on Digilent Reference for more information.
+
 Description
 --------------
 This project is a Vivado demo using the Zybo Z7-10's, Pmod Ports and the Pmod VGA written in VHDL. The Pmod VGA is controlled by the Zybo Z7-10 through Pmod ports JB and JC. When programmed onto the board, a bouncing box and many test pattern bars are displayed on a connected VGA monitor. The screen resolution is configurable through HDL code.
